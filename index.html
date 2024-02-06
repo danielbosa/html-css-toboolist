@@ -28,15 +28,30 @@
             <button type="button" class="bg-blue text-white">Add Task</button>
             <button type="button" class="bg-white text-lightgray">Add Section</button>
         </div>
-        <div>
+        <!-- <div>
             <h2>&#128899; New Task</h2>
             <ul>
                 <li><span class="check-yes">&#10004;</span>Quarterly Newsletter <span>Editorial</span></li>
             </ul>
-        </div>
-
-
-    <!-- tag da trovare con dentro ul, a cui cambiare list item e "creare icona" -->
+        </div> -->
+        <details>
+            <summary>New Task</summary>
+            <p><span class="check-yes">&#10004;</span>Quarterly Newsletter<span class="badge bg-blue text-white">Editorial</span></p>
+        </details>
+        <details>
+            <summary>Today</summary>
+            <p><span class="check-yes">&#10004;</span>Recruiting blog post<span class="badge bg-blue text-white">Editorial</span></p>
+            <p><span class="check-yes">&#10004;</span>Mobile app launch<span class="badge bg-violet text-white">Q1 Goals</span></p>
+            <p><span class="check-no">&cross;</span>Interview John H.<span class="badge bg-aqua text-white">Recruiting</span></p>
+            <p><span class="check-yes">&#10004;</span>Summit update to mobile storefronts<span class="badge bg-yellow text-white">Mobile</span></p>
+        </details>
+        <details class="upcoming">
+            <summary>Upcoming</summary>
+            <p><span class="check-no">&cross;</span>Schedule meeting with Alex</p>
+            <p><span class="check-yes">&#10004;</span>Homepage refres<span class="badge bg-pink text-white">Website</span></p>
+            <p><span class="check-yes">&#10004;</span>Onboard new Sales team members<span class="badge bg-green text-white">Sales</span></p>
+            <p><span class="check-yes">&#10004;</span>Review editorial calendar<span class="badge bg-blue text-white">Editorial</span></p>
+        </details>
     </main>
 
 </body>
