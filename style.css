@@ -9,6 +9,8 @@ body{
     background-color: rgb(219, 219, 247);
 }
 
+/* header */
+
 h1{
     display: inline-block;
     font-size: 2.5em;
@@ -23,18 +25,21 @@ header{
     vertical-align: middle;
 }
 
+/* main */
+
 main{
     width: 75%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     background-color: white;
 }
 
 .button-row{
     border-bottom: 1px solid gray;
     padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 /* Button */
@@ -84,27 +89,23 @@ button{
     color: lightgray;
 }
 
-/* List item */
-li{
-    list-style-type: none;
-}
-
-.check-yes{
-    color: #79dbca;
-    border: 2px solid #79dbca;
+/* Symbol */
+.check{
     border-radius: 50%;
     margin-right: 10px;
     padding: 2px;
     font-size: 0.8em;
+    border: 2px solid;
 }
 
-.check-no{
+.cross{
     color: red;
-    border: 2px solid red;
-    border-radius: 50%;
-    margin-right: 10px;
-    padding: 2px;
-    font-size: 0.8em;
+    border-color: red;
+}
+
+.mark{
+    color: #79dbca;
+    border-color: #79dbca;
 }
 
 /* Text size */
@@ -126,7 +127,7 @@ p{
 }
 
 .upcoming{
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 details{
