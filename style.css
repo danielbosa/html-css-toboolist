@@ -93,13 +93,13 @@ button{
 }
 
 .btn-task{
-    border-bottom: #14aaf5;;
+    border-color: #14aaf5;;
     background-color: #14aaf5;
     color: white;
 }
 
 .btn-section{
-    border-bottom:lightgray;;
+    border-color: lightgray;
     background-color: white;
     color: lightgray;
 }
