@@ -9,74 +9,11 @@ body{
     background-color: rgb(219, 219, 247);
 }
 
-/* header */
-
-h1{
-    display: inline-block;
-    font-size: 2.5em;
-}
-
-header{
-    background-color: white;
-}
+/* Utility */
 
 .inline-block{
     display: inline-block;
     vertical-align: middle;
-}
-
-/* main */
-
-main{
-    width: 75%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    background-color: white;
-}
-
-.button-row{
-    border-bottom: 1px solid gray;
-    padding-left: 50px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-/* Button */
-button{
-    border-radius: 5px;
-    padding: 5px 10px;
-    border: 1px solid gray;
-}
-
-/* Background color */
-
-.bg-blue{
-    background-color: #14aaf5;
-}
-
-.bg-white{
-    background-color: white;
-}
-
-.bg-yellow{
-    background-color: rgb(255, 196, 0);
-}
-
-.bg-violet{
-    background-color: rgb(179, 47, 179);
-}
-
-.bg-aqua{
-    background-color: rgb(1, 221, 221);
-}
-
-.bg-pink{
-    background-color: rgb(233, 48, 156);
-}
-
-.bg-green{
-    background-color: greenyellow;
 }
 
 /* Text color */
@@ -89,23 +26,30 @@ button{
     color: lightgray;
 }
 
-/* Symbol */
-.check{
-    border-radius: 50%;
-    margin-right: 10px;
-    padding: 2px;
-    font-size: 0.8em;
-    border: 2px solid;
+/* header */
+
+h1{
+    font-size: 2.5em;
 }
 
-.cross{
-    color: red;
-    border-color: red;
+header{
+    background-color: white;
 }
 
-.mark{
-    color: #79dbca;
-    border-color: #79dbca;
+.logo{
+    padding-left: 20px;
+}
+
+
+/* main */
+
+main{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 /* Text size */
@@ -116,7 +60,6 @@ summary{
 }
 
 /* Spacing */
-
 summary{
     margin-top: 30px;
 }
@@ -126,19 +69,98 @@ p{
     margin-bottom: 20px;
 }
 
-.upcoming{
-    padding-bottom: 30px;
-}
-
-details{
+.alignment-left{
     padding-left: 50px;
 }
 
-/* Badge */
+.space-bottom{
+    padding-bottom: 30px;
+}
 
+/* Elements */
+
+/* Button */
+.btn-row{
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+button{
+    border-radius: 8px;
+    padding: 6px 12px;
+    border: 1px solid;
+}
+
+.btn-task{
+    border-bottom: #14aaf5;;
+    background-color: #14aaf5;
+    color: white;
+}
+
+.btn-section{
+    border-bottom:lightgray;;
+    background-color: white;
+    color: lightgray;
+}
+
+/* Badge */
 .badge{
     font-size: 0.8em;
     padding: 8px;
     margin: 5px;
     border-radius: 30px;
+    color: white;
+}
+
+/* Badge bg color */
+
+.bg-editorial{
+    background-color: #14aaf5;
+}
+
+.bg-mobile{
+    background-color: rgb(255, 196, 0);
+}
+
+.bg-goals{
+    background-color: rgb(179, 47, 179);
+}
+
+.bg-recuiting{
+    background-color: rgb(1, 221, 221);
+}
+
+.bg-website{
+    background-color: rgb(233, 48, 156);
+}
+
+.bg-sales{
+    background-color: greenyellow;
+}
+
+/* Symbol */
+.circle{
+    /* create box */
+    width: 30px;
+    height: 30px;
+    /* make it circle */
+    border-radius: 50%;
+    /* style */
+    margin-right: 10px;
+    border: 2px solid;
+    /* centered in the middle */
+    text-align: center;
+    line-height: 30px;
+}
+
+.cross{
+    color: red;
+    border-color: red;
+}
+
+.mark{
+    color: green;
+    border-color: green;
+    ;
 }
